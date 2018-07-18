@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang ="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="Exercicio1.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <br>
+      <header>
+        <h1>Pesquisa de Satisfação</h1>
+      </header>
+      <p class = "titulo">Complete com os dados da compra:</p>
+
+      <!-- Dados do usuário avaliador -->
+      Nome: <input type="text" size="19px">
+      <br><br>
+      Email: <input type="text" size = "20px">
+      <br><br>
+      Cupom Fiscal: <input type="text" size="12px">
+      <br>
+      <p class="subtitulo">Gênero:</p>
+      <espaco>
+        <input type="radio" name="genero" value"feminino">Feminino
+        <input type="radio" name="genero" value"masculino">Masculino
+      </espaco>
+
+      <!--Possível nacionalidade a ser implementada mais tarde
+      <p class="subtitulo">Nacionalidade:</p>
+      <input type="checkbox" name="nacionalidade" value"brasileiro">Brasileiro
+      <input type="checkbox" name="nacionalidade" value"estrangeiro">Estrangeiro
+      -->
+
+      <br><br>
+
+      <!-- Informação sobre os produtos comprados e avaliação -->
+      <p class="subtitulo">Selecione os produtos comprados:</p>
+      <espaco>
+        <input type="checkbox" name="produto" value"base">Base
+        <input type="checkbox" name="produro" value"batom">Batom
+        <input type="checkbox" name="produto" value"delineador">Delineador
+        <input type="checkbox" name="produto" value"iluminador">Iluminador
+        <br>
+        <input type="checkbox" name="produto" value"pinceis">Pincéis
+        <input type="checkbox" name="produto" value"rimel">Rímel
+        <input type="checkbox" name="produto" value"sombra">Sombra
+        <input type="checkbox" name="produto" value"outros">Outros
+        <br><br>
+      </espaco>
+      <p class="subtitulo">Como você avalia sua compra no geral?</p>
+      <espaco>
+        <input type="radio" name="avaliacao" value"otima">Ótima
+        <input type="radio" name="avaliacao" value"boa">Boa
+        <input type="radio" name="avaliacao" value"regular">Regular
+        <input type="radio" name="avaliacao" value"ruim">Ruim
+      </espaco>
+      <br><br>
+      <p class="subtitulo">Recomendaria nossos produtos para um(a) amigo(a)?</p>
+        <input type="radio" name="avaliacao" value"defsim">Definitivamente <espaco>sim
+        <input type="radio" name="avaliacao" value"sim">Sim
+        <input type="radio" name="avaliacao" value"nao">Não
+        <input type="radio" name="avaliacao" value"defnao">Definitivamente</espaco> não
+      <br><br>
+
+      <!-- Comentários adicionais do cliente -->
+      <p class="subtitulo">Comentários adicionais:</p>
+      <textarea rows="4" cols="50"></textarea>
+      <br><br>
+
+      <!-- Botão para submeter avaliação com reação onclick -->
+      <button class = "btn" onclick="alert('Agradecemos pela sua avaliação!')">Avaliar</button>
+      <br><br><br>
+      <hr></hr>
+
+      <!-- Tabela com informações sobre a trainee -->
+      <br>
+        <center>
+          <table>
+            <caption>Sobre a trainee</caption>
+              <tr>
+                  <th>Nome</th>
+                  <th>Idade</th>
+                  <th>Curso</th>
+                  <th>Período</th>
+              </tr>
+              <tr>
+                  <th>Carla Moreno</th>
+                  <th>19</th>
+                  <th>Ciência da Computação</th>
+                  <th>3°</th>
+              </tr>
+          </table>
+        </center>
+      <br><br>
+    </div>
+    <footer>
+      Compare nossos excelentes preços com os da concorrência:<br>
+      <sites>
+        <a href="https://www.avon.com.br/">Avon</a>
+        <a href="https://www.benefitcosmetics.com/br/pt-br">Benefit</a>
+        <a href="https://www.maccosmetics.com.br/">MAC</a>
+        <a href="http://www.maybelline.com.br/">Maybelline</a>
+        <a href="https://www.sephora.com.br/">Sephora</a>
+      </sites>
+    </footer>
+  </body>
+</html>

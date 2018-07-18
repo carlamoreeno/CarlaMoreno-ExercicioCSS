@@ -1,0 +1,101 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-image: url("Fundo.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+header {
+    background-color: #808080;
+    margin-top: -30px;
+    margin-left: -6px;
+    margin-right: -6px;
+    padding: 1px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Títulos da página */
+p.titulo{
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Subtítulos da página */
+p.subtitulo{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* Título da tabela */
+caption{
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* Tabela com dados sobre mim (trainee) */
+table, td, th {
+    border: 1px solid #AAAAAA;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+/* Botão de para submeter avaliação */
+.btn{
+    background-color: #808080;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+/* Transition do botão que submete avaliação quando sob o cursor */
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #808080;
+    padding: 12px;
+    margin-left: -6px;
+    margin-right: -6px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+/* Transition do rodapé quando sob o cursor */
+footer:hover {
+  font-size: 18px;
+}
+
+/* Espaçamento entre links no rodapé */
+sites{
+word-spacing: 8px;
+}
+
+/* Maior espaçamento entre palavras */
+espaco{
+word-spacing: 12px;
+}
